@@ -22,4 +22,4 @@ jobs:
             - name: echo a string
               run: Write-Output "Windows String"
             - name: Error
-              run: doesnotexists
+              run: echo "Hi since dependant job"
